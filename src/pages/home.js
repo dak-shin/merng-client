@@ -1,6 +1,6 @@
 import React,{useContext} from 'react'
 import {useQuery} from '@apollo/client';
-import {Grid, Transition} from 'semantic-ui-react';
+import {Grid, Transition, Loader} from 'semantic-ui-react';
 
 
 import {AuthContext } from '../context/auth';
@@ -47,7 +47,7 @@ function Home() {
             </Grid.Row>
         </Grid>);
     }
-    return (<h2>No post available</h2>);
+    return (<Loader active inline='centered' style={{marginTop: 30}}/>);
     
     
     

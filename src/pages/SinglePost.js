@@ -13,7 +13,7 @@ function SinglePost(props) {
     const postId = props.match.params.postId;
     const commentInputRef = useRef(null);
 
-        const {loading, data} = useQuery(FETCH_POST_QUERY,{
+        const { data} = useQuery(FETCH_POST_QUERY,{
         variables:{
             postId
         }

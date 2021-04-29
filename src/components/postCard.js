@@ -18,8 +18,7 @@ const PostCard = (props)=> {
             username,
             likesCount,
             commentsCount,
-            likes,
-            comments} = props.props;
+            likes} = props.props;
 
     const {user} = useContext(AuthContext);
 
