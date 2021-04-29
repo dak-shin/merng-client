@@ -92,7 +92,7 @@ function SinglePost(props) {
                                 <p>Post a comment </p>
                                 <Form>
                                     <Form.Field>
-                                        <label>First Name</label>
+                                        
                                         <input 
                                         autoFocus
                                         placeholder='Comment...' 
