@@ -1,0 +1,12 @@
+.page-title {
+  display: block !important;
+  text-align: center;
+  margin-top: 20px !important;
+  margin-bottom: 20px;
+  font-size: 3rem;
+}
+
+.form-container {
+  width: 30rem;
+  margin: auto;
+}
