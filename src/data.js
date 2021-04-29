@@ -1,2 +1,2 @@
-export const URI = "http://localhost:6969/";
+export const URI = "https://warm-forest-85127.herokuapp.com/";
 
